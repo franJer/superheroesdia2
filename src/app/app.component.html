@@ -1,0 +1,23 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!!
+  </h1>
+</div>
+<app-super-hero [superheroe]=batman (send) = mostrarNombre($event)></app-super-hero>
+<app-super-hero [superheroe]=superlopez (send) = mostrarNombre($event)></app-super-hero>
+<!--
+  ngFor para pintar una lista de superheroe
+  estadop del super heroe
+
+  console -> ng new prueba1
+  console -> cd prueba1
+  console -> ng serve
+
+  Component
+  console (short version) -> ng g c name
+
+  import Pipe, PipeTransform
+
+  crear un Pipe
+-->

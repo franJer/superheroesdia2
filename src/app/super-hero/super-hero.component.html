@@ -1,0 +1,9 @@
+<p>
+  {{superheroe.name}}
+  <br>
+  {{superheroe.alterEgo}}
+  <li  *ngFor="let string of superheroe.superpowers">
+    {{string}}
+  </li>
+  <button (click)="enviar()">Llamar</button>
+</p>
